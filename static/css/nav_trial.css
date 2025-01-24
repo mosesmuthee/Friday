@@ -1,0 +1,39 @@
+.container{
+    row-gap: 20px;
+}
+h5{
+    color: green;
+    font-family: C059;
+    margin-bottom: 100px;
+
+}
+h5:hover{
+    color: blue;
+}
+.button{
+    color: green;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#button-round{
+    border-radius: 25px;
+    cursor: pointer;
+}
+#carouselExampleAutoplaying{
+    margin-bottom: 20px;
+}
+.card-title{
+    margin-bottom: 20px;
+    margin-top:20px;
+}
+.card-title:hover{
+    color: blue;
+}
+.col-4{
+    margin-right: 90px;
+    padding: 25px;
+}
+.card-img-top{
+    border-radius: 25px;
+}
