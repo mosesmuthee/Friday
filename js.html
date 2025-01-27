@@ -34,9 +34,16 @@
 
 <p>Click the button below to see what happens</p>
 
-<button>Click me please!!</button>
-<script src="static/mine.js" </script>
+<button id="mybutton">Click me please!!</button>
+<script>
+    const button=document.getElementById( 'mybutton' );
 
+    button.addEventListener('click', function(){
+        alert('You clicked me');
+    });
+
+
+</script>
 
 </body>
 </html>
